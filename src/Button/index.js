@@ -42,22 +42,24 @@ function Button({
 
   return (
     <React.Fragment>
-      <div>
-        <button onClick={handleOneClick}>1</button>
-        <button onClick={handleTwoClick}>2</button>
-        <button onClick={handleThreeClick}>3</button>
+      <div className="number-button">
+        <div>
+          <button onClick={handleOneClick}>1</button>
+          <button onClick={handleTwoClick}>2</button>
+          <button onClick={handleThreeClick}>3</button>
+        </div>
+        <div>
+          <button onClick={handleFourClick}>4</button>
+          <button onClick={handleFiveClick}>5</button>
+          <button onClick={handleSixClick}>6</button>
+        </div>
+        <div>
+          <button onClick={handleSevenClick}>7</button>
+          <button onClick={handleEightClick}>8</button>
+          <button onClick={handleNineClick}>9</button>
+        </div>
+        <button onClick={handleZeroClick}>0</button>
       </div>
-      <div>
-        <button onClick={handleFourClick}>4</button>
-        <button onClick={handleFiveClick}>5</button>
-        <button onClick={handleSixClick}>6</button>
-      </div>
-      <div>
-        <button onClick={handleSevenClick}>7</button>
-        <button onClick={handleEightClick}>8</button>
-        <button onClick={handleNineClick}>9</button>
-      </div>
-      <button onClick={handleZeroClick}>0</button>
     </React.Fragment>
   );
 }

@@ -9,3 +9,6 @@ button {
   font-size: 16px;
   margin: 2px;
 }
+.number-button {
+  text-align: center;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Calculate from "../Calculate";
+import "./main.css";
 
 function Display({ number, setNumber }) {
   return (
